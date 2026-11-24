@@ -169,7 +169,7 @@
 
   <!-- Footer -->
   <footer class="w-full max-w-6xl mx-auto px-4 sm:px-6 py-3 text-center sm:text-left text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-1">
-    <span>সব সাজেশন এক জায়গায় • নতুন ফাইল আপলোড করলেই অটো যুক্ত হবে</span>
+    <span>Made with ❤️ for friends of Bangla Department. ✌🏻</span>
     <a
       href="https://sr7mods.github.io/about-dev/"
       target="_blank"
@@ -478,7 +478,7 @@
           JSON.stringify(sortFiles(cached.files)) === JSON.stringify(sortFiles(files));
         if (!same) {
           if (!files.length) {
-            showMessage('এখনো কোনো সাজেশন নেই', 'Repo-তে index.html ছাড়া অন্য কোনো .html ফাইল আপলোড করলেই এখানে অটো দেখা যাবে।');
+            showMessage('এখনো কোনো সাজেশন যুক্ত করা হয়নি।'');
           } else {
             await loadAndRender(files, activeIndex);
           }
